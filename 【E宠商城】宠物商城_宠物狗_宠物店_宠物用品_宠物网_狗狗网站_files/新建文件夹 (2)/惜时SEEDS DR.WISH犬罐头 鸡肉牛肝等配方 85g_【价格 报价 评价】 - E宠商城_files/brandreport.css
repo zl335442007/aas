@@ -1,0 +1,48 @@
+.inblock{ display: inline-block;}
+.block{ display: block;}
+.abs{ position: absolute;}
+body{ background: #fff;}
+img{ vertical-align: middle;}
+.ftc{ text-align: center;}
+.brand-ico{ background: url(../images/Brand-ico.png) no-repeat;}
+.Detail-nav span{ height: 35px; line-height: 35px; background: #F5F5F5; border: 1px #ddd solid; padding: 0 15px; margin-right: 4px; border-bottom: none;}
+.Detail-nav span:hover{cursor: pointer;}
+.Detail-nav .Detail-defalut{border-top:2px solid #85BC56; background: #fff;}
+.Deailcontent{ border: #ddd solid 1px; margin-top: -1px;}
+.Trailprolf{ width: 980px;}
+.Deailcontent{ padding: 0 65px;}
+.Detailuser ul li{display:inline-block; float: left; margin: 40px 50px 0 0;}
+.Detailuser ul li >img,.TrailUserlogo img{ width: 74px; height: 74px; border-radius: 50%; border: #ddd solid 1px;}
+.Detailuser ul li:nth-child(7n){ margin-right: 0;}
+.Detailnamename{ white-space: nowrap; text-overflow: ellipsis; width: 76px; height: 15px; margin: 5px 0 0 0;}
+.DeaiTrailist{ padding: 0;}
+.Traillist{width:900px; margin: 0 auto; border-bottom: #e4e4e4 dashed 1px; padding: 40px 0;}
+.Traillist:last-child{ border-bottom:none;}
+.Traillistlf{ width: 115px; margin-right: 60px;}
+.Useranme{ margin: 8px 0 15px 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; width: 115px;}
+.Traillistfr{ color: #aeaeae;text-align: left;}
+.Pingfen{ height: 32px; width: 190px; text-align: right;}
+.Pingfen img{width:52px;height:66px}
+.Pinfentext{ height: 60px; line-height: 20px; overflow: hidden; display: block;text-align: left;}
+.Pinfentext a{ color: #038bb7;}
+.In-title{ color: #777777; font-size: 18px;max-height: 47px;line-height: 22px;}
+.jingxuan{ width: 46px; height: 20px; color: #f13021; border:#f13021 solid 1px; line-height: 20px; border-radius: 5px; margin-right: 10px;}
+.Detailpro ul li{ display: block; float: left; border: #E4E4E4 solid 1px; border-radius: 10px; padding: 1px; margin-right: 15px;}
+.Detailpro ul li{}
+.Detailpro ul li img{ width: 68px; height: 68px;  border-radius: 8px;}
+.Detailpro{ padding-top: 20px;}
+.Hot-ico{ width: 17px; height: 12px; background-position: -25px -72px; vertical-align:middle;}
+.suibianpet{ width:17px; height: 17px; background-position: 0 -762px; vertical-align: middle;}
+.animadogico{ width: 22px; height: 15px; background-position: 0 -707px; vertical-align: middle;}
+.animacatico{background-position: 0 -740px; }
+
+
+
+
+
+
+
+
+
+
+

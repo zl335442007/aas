@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+body{min-width:1200px;}
+.surprise-tit{height:75px;}
+.sur-titimg{width:120px;height:34px;margin-top:30px}
+.surprise-list{width:972px;height:380px;}
+.surprise-list li{border-right:1px solid #eee;float:left;width:242px;height:375px;padding-top:5px;}
+.surprise-list li .imgBox{width:193px;height:193px;}
+.surprise-list li h1{height:36px;line-height:18px;}
+.sur-price{margin-left:25px;}
+.sur-num{color:#ff4400;font-size:22px;}
+.sur-numbox{width:115px;}
+.atonce-buy{width:73px;padding-left:20px;height:42px;line-height:42px;color:#fff;background:url(../images/daysur_ico.png) no-repeat -4px -8px;display:block;}
+.ctrld-a{background:url(../images/daysur_ico.png) no-repeat -4px -153px;}
+.atonce-start{background:url(../images/daysur_ico.png) no-repeat -4px -104px;}
+.end-a{background:url(../images/daysur_ico.png) no-repeat -4px -57px;}
+.p25{padding:25px;}
+.sur-price a:hover{color:#fff;}
+.sur-price{margin-top:5px;}
+.time-px{border-bottom:1px solid #e1e0e0;padding-bottom:21px;padding-left:50px;width:1022px;}
+.time-px p{width:140px;float:left;}
+.time-px em{display:block;position:absolute;bottom:-42px;left:0;width:100%;background:url(../images/daysur_ico.png) no-repeat 42px -227px;height:24px;text-align:center;}
+.time-px .time-out{background:url(../images/daysur_ico.png) no-repeat 42px -200px;}
+.time-px .current span{color:#fff;font-weight:bold;background:#fe5400;border-radius:5px;padding:3px 20px;display:inline-block;*display:inline;*zoom:1;height:22px;line-height:22px;}
+.time-px .current i{bottom:-12px;left:65px;border-style:solid solid dotted solid; border-color:#fe5400 transparent transparent transparent;position:absolute;border-width:7px;font-size:0;line-height:0;z-index:1;}
+.time-px .current em{background:url(../images/daysur_ico.png) no-repeat 37px -263px;bottom:-52px;height:62px;}
+/* 轮播 */
+.day-surimg{height:380px;width:222px;overflow:hidden; position:relative;}
+.day-surimg img{width:222px;height:380px;text-align:center;}
+.day-surimg .dlcurrent img{transform: scale(1);transition: transform 4s linear 0s;}
+.day-surimg .d1{width:100%;height:380px;display:block;position:absolute;left:0px;top:0px;}
+.day-surimg .d2{width:100%;height:20px;clear:both;position:absolute;z-index:100;left:0px;bottom:10px;text-align:center;}
+.day-surimg .d2 ul{margin:0px auto;display:inline-block;}
+.day-surimg .d2 li{width:10px;height:10px;overflow:hidden;cursor:pointer;background:#fff;filter:alpha(opacity=60);-moz-opacity:0.6;opacity:0.6;float:left;margin:0 5px;display:inline;border-radius:50%;box-shadow:0px 0px 5px #fff;}
+.day-surimg .d2 li.nuw{filter:alpha(opacity=100);-moz-opacity:1;opacity:1;}
+.surprise-con{margin-bottom:20px;}
+/*2016-1-6首页宝箱*/
+.chestbox{position:absolute;top:30px;left:20px;width:102px;height:93px;}
+.chesbox-pro{width:80px;height:80px;display:none;position:absolute;top:42px;left:28px;}
+.chesbox-pro img{width:80px;height:80px;}
+.u-flyer{display: block;width:50px;height:50px;border-radius:50px;position: fixed;z-index: 9999;}
+.chestbox-tc{width:570px;height:187px;position:fixed;display:none;z-index:9999;}
+.chestbox-tc p{color:#fff;font-size:21px;line-height:30px;position:absolute;top:65px;left:65px;width:440px;font-family:"Microsoft Yahei",tahoma,arial;}
+.chestbox-close{color:#fff;font-size:22px;position:absolute;top:36px;right:48px;}
+.chestbox-close:hover{color:#fff;}
+/*详情页*/
+.user-huifu .ztip{color:#9dca20; display: inline-block}
+.user-huifu .ztip span{ color: #9dca20}
+.xqbaox img{width:51px;height:46px;}
+.xqbaox {top:15px;left:425px;}

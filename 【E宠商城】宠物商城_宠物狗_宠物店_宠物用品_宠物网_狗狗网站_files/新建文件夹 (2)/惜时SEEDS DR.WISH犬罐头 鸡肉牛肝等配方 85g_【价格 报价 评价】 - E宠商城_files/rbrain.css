@@ -1,0 +1,82 @@
+#rbrain {position:fixed;top:0;left:0;right:0;bottom:0;z-index:2000;}
+#rbrain {position:fixed;top:0;left:0;right:0;bottom:0;z-index:2000;}
+.medalbg {background:rgba(27,34,70,.9);}
+#rbrain .medal {position:fixed;top:0;left:0;right:0;bottom:0;}      
+#rbrain .medal .step2,#rbrain .medal .step3{width:620px;margin:100px auto 0;}
+#rbrain .medal .step3 .rlogo {margin-top:80px;}                        
+#rbrain .medal .step2 .pic img {margin-left:100px;}
+#rbrain .medal .step2 .begin {width:620px;text-align:center;}
+#rbrain .medal .step2 .begin a {display:inline-block;width:400px;background:#ffc035;border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;-ms-border-radius:10px;border:none;height:68px;line-height:68px;color:#450c03;font-size:30px;background:-webkit-linear-gradient(top,#ffcf49,#fa8c4a);background:-moz-linear-gradient(top,#ffcf49,#fa8c4a);background:-ms-linear-gradient(top,#ffcf49,#fa8c4a);cursor:pointer;}
+#rbrain .quan {left:100px;top:122px;background:url(../images/quan.png) center center no-repeat;width:190px;height:53px;background-size:100% 100%;-webkit-background-size:100% 100%;-moz-background-size:100% 100%;-ms-background-size:100% 100%;line-height:53px;}
+#rbrain .cash {right:100px;top:122px;background:url(../images/bag.png) center center no-repeat;width:190px;height:53px;background-size:100% 100%;-webkit-background-size:100% 100%;-moz-background-size:100% 100%;-ms-background-size:100% 100%;line-height:53px;}
+#rbrain .step4 .quan {top:137px;}
+#rbrain .step4 .cash {top:137px;}
+.package-container{
+    width: 600px;
+}
+.package-container .pre-load{
+	width:600px;
+    display: none;
+}
+.package-container .red-package{
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    background: url("../images/red_package.png") no-repeat;
+    background-size: 100%;
+}
+.package-container .yellow-package{
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    background: url("../images/yellow_package.png") no-repeat;
+   background-size: 100%;
+}
+.ftc {text-align:center;}
+.pur {color:#caa9fc;}
+.vermiddle {vertical-align: middle;}
+.ft33 {font-size:33px;}
+.package-container .money{
+    position: absolute;
+    background: url("../images/money.png");
+    background-size: 100%;
+    z-index: 1;
+    visibility: hidden;
+    width:75px;
+    height:75px;
+}
+.package-container .ticket{
+    position: absolute;
+    background: url("../images/ticket.png");
+    background-size: 100%;
+    z-index: 1;
+    visibility: hidden;
+    width:75px;
+    height:75px;
+}
+.red-package,.yellow-package {height:800px;}
+#rbrain .step1 {margin-left:auto;margin-right:auto;width:420px;padding:4px 0 4px 4px;background:#f33c50;border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;-ms-border-radius:10px;cursor:pointer;}
+#rbrain .step1 img {vertical-align:middle;}
+#rbrain .medal .step4 {margin:10px auto 0;}
+#rbrain .step1 .arrow {margin-bottom:6px;margin-left:20px;}
+#rbrain .step3 .rlogo .time {top:-56px;left:220px;}
+#rbrain .step3 .rlogo .time .second {top:8px;left:104px;font-size:22px;color:#450500;}
+#rbrain .step4 .title,#rbrain .step4 .rlogo {width:940px;margin-left:auto;margin-right:auto;}
+#rbrain .step4 .info{margin:70px auto 0;width:900px;background:rgba(72,40,155,.6);padding:10px 20px 24px;border-radius:20px;-webkit-border-radius:20px;-moz-border-radius:20px;-ms-border-radius:20px;}
+#rbrain .step4 .info .con {width:450px;}
+#rbrain .step4 .info .con .pic {padding-bottom:10px;}
+#rbrain .step4 .info .top {margin-left:40px;margin-top:20px;}
+#rbrain .step4 .info .top .name {margin-left:20px;width:80px;display:inline-block;white-space: nowrap;overflow:hidden;text-overflow:ellipsis;margin-bottom:-3px;}
+#rbrain .step4 .info .top .ticket,#rbrain .step4 .info .top .money {margin-left:16px;margin-right:4px;}
+#rbrain .step4 .info .con .top img {vertical-align: middle;}
+#rbrain .step4 .info .left .pic {padding-bottom:4px;}
+#rbrain .step4 .info .left .total {margin-top:15px;}
+#rbrain .step4 .info .left .sum {display:inline-block;display:inline-block;margin-left:10px;width:52px;}
+#rbrain .step4 .info .left .tips {margin-top:20px;}
+#rbrain .step4 .mark {color:#f33c50;}
+#rbrain .step4 .mark .left {margin-right:30px;}
+#rbrain .step4 .mark .right {margin-left:30px;}
+#rbrain .step4 .share {margin-top:20px;}
+#rbrain .step4 .share .goshare {display:inline-block;width:400px;height:70px;line-height:70px;border-radius:20px;-webkit-border-radius:20px;-moz-border-radius:20px;-ms-border-radius:20px;font-size:26px;color:#450c03;background:-webkit-linear-gradient(top,#ffcf49,#fa8c4a);background:-moz-linear-gradient(top,#ffcf49,#fa8c4a);background:-ms-linear-gradient(top,#ffcf49,#fa8c4a);}
+#rbrain .step4 .right .ticketq {display:inline-block;width:110px;}
+#rbrain .shut {cursor:pointer;}
